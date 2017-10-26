@@ -1,3 +1,7 @@
+# 平安互联网账户开户接入文档
+---
+
+
 ### 测试环境地址
 https://bank-static-stg.pingan.com.cn/brac-ia/universal_h5/pages/openAccount/entrance.html?channel=XXX&login=1&source=XXX&outerSource=XXX&um=XXX&umType=X&showTitle=X&navigatingButtonName=X&returnUrl=X&entrance=X&cardNo=XXX
 
@@ -37,8 +41,8 @@ location.href =url;
 ### 信任渠道身份证影像审核
 > 1）请求参数
 
-`ciphertext`: 参数串AES加密后的16进制密文
-`signature`：参数串RSA私钥加签的16进制签名，注：对生成的密文(ciphertext)进行签名
+- `ciphertext`: 参数串AES加密后的16进制密文
+- `signature`：参数串RSA私钥加签的16进制签名，注：对生成的密文(ciphertext)进行签名
 
 > 2）ciphertext具体参数
 
